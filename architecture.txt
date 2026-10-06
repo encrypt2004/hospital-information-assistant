@@ -1,0 +1,36 @@
+                    USER QUESTION
+                         │
+                         ▼
+                  ┌─────────────┐
+                  │ Safety Check│
+                  └──────┬──────┘
+                         │
+                         ▼
+                    ┌─────────┐
+                    │ Router  │
+                    └────┬────┘
+                         │
+             ┌───────────┴───────────┐
+             ▼                       ▼
+      STRUCTURED DATA           POLICY QUESTION
+             │                       │
+             ▼                       ▼
+         Pandas CSV              PDF Policy
+             │                       │
+             │                    PyPDF
+             │                       │
+             │                   Text Splitter
+             │                       │
+             │                    Embeddings
+             │                       │
+             │                     FAISS
+             │                       │
+             └───────────┬───────────┘
+                         ▼
+                       Gemini
+                         │
+                         ▼
+                  FINAL ANSWER
+                         │
+                         ▼
+                       SOURCE
