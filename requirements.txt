@@ -1,12 +1,13 @@
-src/data_loader.py
-src/structured_search.py
-src/llm.py
-src/router.py
-src/prompt.py
-src/safety.py
+streamlit==1.50.0
+pandas==2.3.3
+openpyxl==3.1.5
+python-dotenv==1.1.1
 
-src/rag/document_loader.py
-src/rag/vector_store.py
-src/rag/policy_search.py
+langchain==1.0.5
+langchain-core==1.0.5
+langchain-community==0.4.1
+langchain-text-splitters==1.0.0
+langchain-google-genai==3.0.2
 
-app.py
+faiss-cpu==1.12.0
+pypdf==6.1.3
